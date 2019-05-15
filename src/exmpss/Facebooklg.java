@@ -17,7 +17,7 @@ public class Facebooklg {
 		dvr.findElement(By.xpath("(//*[@type='password'])[1]")).sendKeys("rajashekar");
 		Thread.sleep(3000);
 		dvr.findElement(By.xpath("//*[@aria-label='Log In']")).submit();
-		
+		Thread.sleep(3000);
 		
 		
 		
